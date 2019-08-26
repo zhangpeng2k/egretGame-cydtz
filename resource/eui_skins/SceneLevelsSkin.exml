@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="SceneLevelsSkin" width="720" height="1136" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" >
+    <e:Scroller top="0" bottom="0" right="0" left="0">
+        <e:Group id="group_levels">
+					<e:Button id="btn_setting" label="设置" x="507" y="12" width="188">
+						<e:skinName>
+						<e:Skin states="up,down,disabled">
+							<e:Image width="100%" height="100%" source="MoneyBG_png" source.down="MoneyBG_png"/>
+							<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+						</e:Skin>
+						</e:skinName>
+					</e:Button>
+				</e:Group>
+    </e:Scroller>
+    <e:Button id="btn_back" x="607" y="1047">
+        <e:skinName>
+            <e:Skin states="up,down,disabled">
+                <e:Image width="100%" height="100%" source="BackBtn_png" source.down="BackBtn1_png"/>
+                <e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+            </e:Skin>
+        </e:skinName>
+    </e:Button>
+</e:Skin>
