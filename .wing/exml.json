@@ -1,0 +1,16 @@
+{
+  "global": {
+    "globalBindingDataTestObj": [],
+    "globalAutoLayerMarkEnable": false,
+    "gridColor": 8421504,
+    "gridEnabled": false,
+    "gridSize": 20
+  },
+  "1654bafaaa6": {
+    "guideLinesEnabled": false,
+    "bindingDataTestObj": []
+  },
+  "16550d69e90": {
+    "guideLinesEnabled": true
+  }
+}
